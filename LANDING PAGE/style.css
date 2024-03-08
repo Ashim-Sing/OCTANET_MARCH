@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width:100%;
+    height:100vh;
+    background: url(https://images.hindustantimes.com/img/2022/08/27/1600x900/tovp_surrounding__1661584076031_1661584088593_1661584088593.jpg);
+    background-size: cover;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    color:black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    font-size: 1.8em;
+    letter-spacing: 2px;
+}
+.menu a{
+    text-decoration: none;
+    color:black;
+    padding: 100px 20px;
+    font-size: 20px;
+    background: transparent;
+}
+.Booking a.hover{
+    border: 2px solid rgb(92, 103, 205);
+    background: transparent;
+}
+.Booking a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    background:rgba(205, 92, 92, 0.726);
+}
+.Booking a:hover{
+    border: 1px solid indianred;
+    background: transparent;
+}
+.h-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 650px;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #fff;
+}
+.h-text span{
+    letter-spacing: 5px;
+}
+.h-text h1{
+    font-size: 3.5em;
+}
+.h-text a{
+    text-decoration: none;
+    background: rgb(92, 133, 205);
+    padding: 10px 20px;
+    color: #fff;
+    letter-spacing: 5px;
+    transition: 0.4s;
+}
+.h-text a:hover{
+    border: 1px solid indianred;
+    background: transparent;
+}
